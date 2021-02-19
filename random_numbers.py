@@ -5,7 +5,7 @@ gramy = "tak"
 podane = []
 wylosowane = []
 
-while gramy == "tak":
+#while gramy == "tak":
     for i in range(6):
         podane.append(int(input("Podaj liczbę numer "+str(i+1)+": ")))
         while random not in wylosowane:
@@ -19,6 +19,7 @@ while gramy == "tak":
                 trafione = trafione + 1
 
     print("Twój wynik to: "+str(trafione))
+    print("Wylosowane liczby:")
     print("Wylosowane liczby:")
     for i in wylosowane:
         print(i)
