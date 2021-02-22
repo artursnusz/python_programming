@@ -4,7 +4,7 @@ gramy = "tak"
 
 podane = []
 wylosowane = []
-
+#ewwew
 #while gramy == "tak":
     for i in range(6):
         podane.append(int(input("Podaj liczbę numer "+str(i+1)+": ")))
