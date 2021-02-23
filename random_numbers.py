@@ -7,12 +7,11 @@ wylosowane = []
 #ewwew
 #rwwrwwrwtwwt
 #eteteteyeyeyy
-#rereteeyy
 #while gramy == "tak":
     for i in range(6):
         podane.append(int(input("Podaj liczbę numer "+str(i+1)+": ")))
         while random not in wylosowane:
-            wylosowane.append(random):
+            wylosowane.append(random)
         while random in wylosowane:
             random = rd.randint(1,50)
     trafione = 0
