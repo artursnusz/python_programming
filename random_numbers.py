@@ -24,6 +24,7 @@ for z in podane:
 print("Twój wynik to: " + str(trafione))
 print("Wylosowane liczby:")
 print("Wylosowane liczby:")
+#teetetet
 #tetete
 #etetet
 #rwrwrwrrrw
